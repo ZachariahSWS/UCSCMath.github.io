@@ -5,4 +5,11 @@ baseurl: ""
 url: "https://UCSCMath.github.io"
 
 # Build settings
-theme: minima
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+author: Zachariah Schwab
