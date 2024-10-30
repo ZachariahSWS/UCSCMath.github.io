@@ -1,0 +1,8 @@
+title: UCSC Math
+email: zsschwab@ucsc.edu
+description: A site to host math content starting with Bob
+baseurl: ""
+url: "https://UCSCMath.github.io"
+
+# Build settings
+theme: minima
