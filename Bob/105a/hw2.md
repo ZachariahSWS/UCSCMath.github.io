@@ -16,10 +16,10 @@ Please complete the following from the [textbook](/Bob/105a/lecture_notes_v2.pdf
 
 ### 2.1.1
 Find what the following sequences converge to and prove they indeed converge to your claimed value.
-$\{x_n\} = \left\{3+\frac{(-1)^n}{2n}\right\}$
-$\{x_n\} = \left\{\frac{2n-5}{5n+7}\right\}$
-$\{x_n\} = \left\{\frac{2n^2+3n}{n+n^2}\right\}$
-$\{x_n\} = \left\{\frac1{n^2} + \frac2{n^2} + \dots + \frac{n}{n^2}\right\}$
+- $\{x_n\} = \{ 3+\frac{(-1)^n}{2n} \}$
+- $\{x_n\} = \{ \frac{2n-5}{5n+7} \}$
+- $\{x_n\} = \{ \frac{2n^2+3n}{n+n^2} \}$
+- $\{x_n\} = \{ \frac1{n^2} + \frac2{n^2} + \dots + \frac{n}{n^2} \}$
 
 ### 2.1.2
 Let $h > 0$ be fixed. Prove (either by induction or using the binomial theorem) that
@@ -41,7 +41,7 @@ $$\lim_{n \rightarrow \infty} \sqrt{n^2 + 6n} - n$$
 Hint: Finding a lower bound on a term in a denominator give an upper bound on its reciprocal, i.e. $f(x) > M$ means $\frac1{f(x)} < \frac1M$
 
 ### 2.2.4
-- Suppose that the sequence $\{x_n\}$ is bounded and that $y_n \rightarrow 0$. Prove that $\{x_ny_n\}$ converges to 0.
+- Suppose that the sequence $\{x_n\}$ is bounded and that $y_n \rightarrow 0$. Prove that $\{x_ny_n\}$ converges to $0$.
 - Give an example in which $y_n \rightarrow 0$, and $x_ny_n$ does not converge to 0.
 
 ### 2.2.5
@@ -53,7 +53,7 @@ $$y_n = \frac{x_1 + x_2 + \dots + x_n}{n} = \frac1n \sum_{k=1}^n x_k$$
 - Let $\{x_n\} = \{(-1)^n\}$. We know that $x_n$ diverges, but show that $y_n$ in this instance converges.
 
 ### 2.2.6
-- Prove that if $\{x_n\}$ converges to $L$, then $\{|x_n|\}$ converges to $|L|$
+- Prove that if $\{x_n\}$ converges to $L$, then $\{\|x_n\|\}$ converges to $\|L\|$
 - Is there converse always true? (is it always the case that if $\{\|x_n\|\}$ converges then $\{x_n\}$ converges?)
 
 ### 2.2.7
