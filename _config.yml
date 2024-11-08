@@ -4,6 +4,7 @@ description: A site to host math content starting with Bob
 baseurl: ""
 url: "https://UCSCMath.github.io"
 
+remote-theme: ZachariahSWS/Academia-Theme
 # Build settings
 markdown: kramdown
 kramdown:
@@ -11,5 +12,6 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-remote-theme
 
 author: Zachariah Schwab
