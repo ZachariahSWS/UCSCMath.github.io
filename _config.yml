@@ -4,7 +4,17 @@ description: A site to host math content starting with Bob
 baseurl: ""
 url: "https://UCSCMath.github.io"
 
-remote-theme: ZachariahSWS/Academia-Theme
+remote_theme: ZachariahSWS/Academia-Theme
+theme_settings:
+  navigation:
+    - title: Home
+      url: /
+    - title: Math 23A
+      url: /Bob/23a
+    - title: Math 100
+      url: /Bob/100
+    - title: Math 105A
+      url: /Bob/105a
 # Build settings
 markdown: kramdown
 kramdown:
